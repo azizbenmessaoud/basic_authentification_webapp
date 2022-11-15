@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    register
+{% endblock title %}
+
+{% block content %}
+    <form action="#" class="auth-form">
+        {% csrf_token %}
+        <label for="email">Email :</label><br>
+        <input type="email" id="email-input" name="email" value="example@email.com..">
+        <label for="password">Password :</label>
+        <input type="password" id="password-input" name="password" value="">
+        <label for="password-confirmation">Password Confirmation :</label>
+        <input type="password" id="password-confirmation-confirmation" name="password" value="">
+        <a href="#" class="google-login-link">Continue with Google</a>
+        <a href="#" class="facebook-login-link">Continue with Facebook</a>
+        <input type="submit" value="Submit">
+    </form>
+{% endblock content %}
