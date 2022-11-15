@@ -1,3 +1,5 @@
 venv/ 
 *__pycache__/ 
 *migrations/ 
+client_secret_562415617067-n4pnd27o44ov2jr8c3gutaam0ov1h4cp.apps.googleusercontent.com.json 
+*.sqlite3 

@@ -20,7 +20,7 @@ from django.contrib import admin
 
 urlpatterns = [
     #...
-    path('', TemplateView.as_view(template_name="home.html")),
+    path('', TemplateView.as_view(template_name="auth_app/home.html")),
     path('accounts/', include('allauth.urls')),
     path('logout', LogoutView.as_view()),
     path('admin/', admin.site.urls),
